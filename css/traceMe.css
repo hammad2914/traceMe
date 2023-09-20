@@ -1,0 +1,576 @@
+@font-face {
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-style: normal;
+    src: url('./fonts/MYRIADPRO-REGULAR.OTF') format('truetype');
+}
+
+@font-face {
+    font-family: 'Nunito';
+    font-weight: 500;
+    font-style: normal;
+    src: url('../fonts/MYRIADPRO-REGULAR.OTF') format('truetype');
+  
+}
+
+@font-face {
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-style: normal;
+    src: url('../fonts/MYRIADPRO-SEMIBOLD.OTF') format('truetype');
+}
+
+
+
+a:hover{
+    text-decoration: none !important;
+}
+
+p{
+    margin-bottom: 0%  !important;
+}
+
+
+.body-wrapper {
+    font-family: Nunito, sans-serif;
+}
+
+.page-content {
+    padding: 0px 20px;
+    max-width: 1280px;
+    margin: 0px auto;
+}
+
+.hero-banner {
+    height: 550px;
+    background-image: url('../assets/header-home-retraced-map-sustainability-management-fashion-1\ \(1\).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.hero-background {
+    width: 100%;
+}
+
+.hero-heading {
+    width: 50%;
+}
+
+.hero-heading h1 {
+    font-family: Nunito, sans-serif;
+    color: #012a4a;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+}
+
+.hero-heading p {
+    font-family: Nunito, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: none;
+    color: #012a4a;
+    font-size: 15px;
+    line-height: 120%;
+}
+
+.hero-heading button {
+    background-color: #012a4a;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 16px;
+    border: transparent;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.hero-heading button:hover {
+    background-color: #343a40;
+}
+
+.trusted-partners, .trackMe-q_a, .traceMe-stats {
+    background-color: #F5F5F5;
+    width: 100%;
+    padding: 50px 30px;
+    border: transparent;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.trusted-partners h2, .traceMe-solutions h2, .trackMe-q_a h2, .traceMe-partners h2, .traceMe-stats h2, .we-support h2{
+    
+    font-weight: 700;
+    text-align: center;
+    color: #012a4a;
+}
+
+.trusted-partners-logos {
+    margin: 40px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.trusted-logo {
+    width: 23%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px;
+    border: 1px solid #fff;
+    padding: 20px;
+    overflow: hidden;
+    border-radius: 15px;
+    filter: grayscale(100%);
+    transition: all 0.3s;
+}
+
+.trusted-logo a img {
+    max-width: 100%;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+}
+
+
+.trusted-logo:hover {
+    filter: grayscale(0%);
+    cursor: pointer;
+    box-shadow: 0px 0px 20px -10px #343a40;
+}
+
+.partner-page-link {
+    margin: 30px auto;
+    width: auto;
+    padding: 10px 20px;
+    border: 1px solid #012a4a;
+    color: #012a4a;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 10px;
+    font-size: 15px;
+    transition: all 0.3s;
+}
+
+.partner-page-link:hover {
+    background-color: #012a4a;
+    color: #F5F5F5;
+}
+
+.traceMe-solutions, .we-support {
+    margin: 60px auto;
+    padding: 50px 30px;
+    width: 100%;
+    text-align: center;
+}
+
+.traceMe-solutions-cards {
+    margin: 60px 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: stretch;
+}
+
+.traceMe-solution-card {
+    width: 47%;
+    border: transparent;
+    border-radius: 15px;
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+
+
+.traceMe-solution-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(1,42,74,0.9);
+}
+
+
+.traceMe-solution-card h1 {
+    color: #FFFFFF;
+    z-index: 1;
+    font-size: 32px;
+}
+
+.traceMe-solution-card a {
+    text-decoration: none;
+    color: #343a40;
+    padding: 8px 10px;
+    background-color: #FFFFFF;
+    width: 150px;
+    border: transparent;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: all 0.3s;
+    z-index: 1;
+}
+
+.traceMe-solution-card a:hover {
+    background-color: #F5F5F5;
+}
+
+/* 0000000000000000000000000000000000000000 */
+
+.q_a-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0px;
+}
+
+
+.flipping-card.flipping {
+    pointer-events: none;
+}
+
+.flipping-card-box {
+    width: 80%;
+    height: 200px;
+    position: relative;
+    -ms-perspective: 800px;
+    perspective: 800px;
+    border-radius: 4px;
+    margin: 30px 0px;
+}
+
+.flipping-card {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: transform 0.5s ease-in-out;
+    border-radius: 6px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    transform-origin: center center;
+}
+
+.flipping-card div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 6px;
+    background: #fff;
+    display: -ms-flexbox;
+    display: box;
+    display: flex;
+    -o-box-pack: center;
+    justify-content: space-around;
+    -o-box-align: center;
+    align-items: center;
+    font: 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #012a4a;
+    padding: 10px 20px;
+    overflow-y: hidden;
+}
+
+.flipping-card div p {
+    width: 70%;
+    text-align: left;
+    font-weight: 500;
+}
+
+.flipping-card .card-back {
+    transform: rotateY(180deg);
+    color: #F5F5F5;
+    background-color: #055796;
+}
+
+.flipping-card.flipped {
+    transform: rotateY(180deg);
+}
+
+.traceMe-partners {
+    margin-bottom: 60px;
+    padding: 0px 30px;
+    width: 100%;
+    text-align: center;}
+
+.customer-logos{
+    margin-top: 60px;
+}
+.stat-boxes{
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    margin-top: 40px;
+}
+.trace-box{
+    width: 30%;
+    background-color: #fff;
+    padding: 30px 0px;
+    border: transparent;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px -10px #343a40;
+}
+.trace-box h1{
+    font-size: 64px;
+    color: #012a4a;
+
+}
+.trace-box h4{
+    color: #012a4a;
+    font-size: 18px !important;
+}
+
+.support-boxes{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #012a4a;
+    padding: 40px 0px;
+    color: #F5F5F5;
+}
+.foot-li h3{
+    text-decoration: underline;
+    font-size: 20px !important;
+}
+.foot-li ul{
+    padding: 0%;
+}
+.foot-li ul li{
+    list-style: none;
+    color: #F5F5F5;
+    padding: 0%;
+    margin: 0%;
+    text-align: left;
+}
+.foot-li ul li a{
+    color: #F5F5F5;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+
+/* Responsive */
+
+@media(max-width:768px){
+    .hero-heading {
+        width: 80%;
+    }
+    .hero-heading h1 {
+        font-size: 36px;
+    }
+    
+    .hero-heading p {
+        font-size: 15px;
+    }
+    .trusted-partners h2, .traceMe-solutions h2, .trackMe-q_a h2, .traceMe-partners h2, .traceMe-stats h2, .we-support h2{
+        font-size: 28px;
+    }
+    .trusted-logo {
+        width: 30%;
+    }
+    
+    .partner-page-link {
+        font-size: 13px;
+    }
+    
+    .traceMe-solutions-cards {
+        flex-direction: column;
+        justify-content: stretch;
+        align-items: center;
+    }
+    
+    .traceMe-solution-card {
+        width: 90%;
+        margin: 10px auto;
+    }
+    
+    .traceMe-solution-card h1 {
+        font-size: 30px;
+    }
+    
+    
+    /* 0000000000000000000000000000000000000000 */
+    
+    .q_a-cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: 30px 0px;
+    }
+    
+    
+    .flipping-card.flipping {
+        pointer-events: none;
+    }
+    
+    .flipping-card-box {
+        width: 90%;
+    }
+
+    .card-back img, .card-front img {
+        width: 20% !important;
+    }
+    
+    .flipping-card div p {
+        width: 80%;
+        margin-left: 10px;
+    }
+    
+    .stat-boxes{
+        display: block;
+    }
+    .trace-box{
+        width: 80%;
+        margin: 20px auto;
+    }
+    .trace-box h1{
+        font-size: 48px;
+        color: #012a4a;
+    
+    }
+    
+    .support-boxes{
+       flex-direction: column;
+        align-items: center;
+    }
+    .support-box{
+        margin-top: 20px;
+    }
+    
+    .foot-li h3{
+        text-decoration: underline;
+        font-size: 16px !important;
+    }
+    .foot-li ul li a{
+        color: #F5F5F5;
+        font-size: 10px;
+        text-decoration: none;
+    }
+}
+
+
+@media(max-width:580px){
+
+    .hero-heading button {
+        background-color: #012a4a;
+        color: #fff;
+        padding: 10px 18px;
+        font-size: 12px;}
+
+    .trusted-logo {
+        width: 40%;
+    }
+    
+    
+    .partner-page-link {
+        margin: 30px auto;
+        width: auto;
+        height: auto;
+        font-size: 10px;
+        display: block;
+    }
+    
+
+    .traceMe-solution-card {
+        width: 95%;
+        padding: 40px;
+        margin: 10px auto;
+    }
+    
+    .traceMe-solution-card h1 {
+        color: #FFFFFF;
+        z-index: 1;
+        font-size: 26px;
+    }
+    
+    .traceMe-solution-card a {
+       font-size: 12px;
+        width: 100px;
+    }
+    
+    .traceMe-solution-card a:hover {
+        background-color: #F5F5F5;
+    }
+    
+    /* 0000000000000000000000000000000000000000 */
+    
+    .flipping-card-box {
+        width: 95%;      
+    }
+
+    .flipping-card div{
+       flex-direction: column;
+       align-items: center;
+       height: 250px;
+
+    }
+
+    .card-back img, .card-front img {
+        width: 50% !important;
+    }
+    
+    .flipping-card div p {
+        text-align: left;
+        font-size: 12px;
+    }
+    
+    .stat-boxes{
+        display: block;
+    }
+    .trace-box{
+        width: 80%;
+        margin: 20px auto;
+    }
+    .trace-box h1{
+        font-size: 48px;
+        color: #012a4a;
+    
+    }
+    
+    .support-boxes{
+       flex-direction: column;
+        align-items: center;
+    }
+    .support-box img{
+        width: 70%;
+    }
+    
+    .footer{
+       flex-direction: column;
+       align-items: center;
+    }
+    
+    .foot-li h3{
+        text-decoration: underline;
+        font-size: 14px !important;
+    }
+    .foot-li ul li{
+        text-align: center;
+    }
+   
+}
