@@ -1,0 +1,245 @@
+.solutions-hero-banner{
+    min-height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.solutions-hero-image img{
+    width: 100%;
+}
+.solutions-hero-text h6{
+    font-size: 15px;
+    font-weight: 800;
+    color: #012a4a;
+    text-transform: uppercase;
+}
+
+.solutions-hero-text h2 {
+    color: #012a4a;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 120%;
+}
+
+.solutions-hero-text p {
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: none;
+    color: #012a4a;
+    font-size: 15px;
+    line-height: 150%;
+    margin-top: 10px;
+}
+
+.solution-overview{
+    background-color: #F5F5F5;
+    width: 100%;
+    padding: 50px 30px;
+    border: transparent;
+    border-radius: 10px;
+}
+
+.key-features{
+    margin: 60px auto;
+    max-width: 1300px;
+}
+.flex-feature{
+    display: flex;
+    align-items: center;
+}
+
+.feature-heading h2, .more-solutions h2{
+    font-weight: 700;
+    text-align: center;
+    color: #012a4a;
+}
+.feature-text, .feature-image{
+    margin-top: 80px;
+}
+.feature-image1{
+    display: flex;
+    justify-content: end;
+}
+
+.feature-text h6{
+    font-size: 14px;
+    font-weight: 700;
+    color: #012a4a;
+}
+.feature-text h3{
+    font-weight: 700;
+    color: #012a4a;
+}
+.feature-li{
+    display: flex;
+    margin-top: 40px;
+}
+.feature-li img{
+    width: 46px;
+    height: 46px;
+}
+.feature-li p{
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+.more-features{
+    background-color: #F5F5F5;
+    width: 100%;
+    padding: 50px 30px;
+    border: transparent;
+    border-radius: 10px;
+    margin: 0px auto !important;
+}
+.feature-box-h{
+    padding: 10px 50px;
+    margin-top: 40px;
+}
+.feature-box-h h3{
+    font-weight: 700;
+    color: #012a4a;
+}
+.feature-box{
+    padding: 10px 50px;
+    border-left: 3px solid #012a4a;
+    margin-top: 40px;
+}
+.feature-box h4{
+    font-weight: 700;
+    color: #012a4a;
+}
+.feature-box p{
+    font-size: 15px;
+}
+.more-solutions{
+    margin: 60px auto;
+    padding: 50px 30px;
+    width: 100%;
+    text-align: center;
+}
+
+.more-sloution-cards {
+    margin: 60px 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: stretch;
+}
+
+.traceMe-solution-link-card {
+    width: 32%;
+    border: transparent;
+    border-radius: 15px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.traceMe-solution-link-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(1,42,74,0.9);
+}
+
+
+.traceMe-solution-link-card h1 {
+    color: #FFFFFF;
+    z-index: 1;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.traceMe-solution-link-card a {
+    text-decoration: none;
+    color: #343a40;
+    padding: 8px 10px;
+    background-color: #FFFFFF;
+    width: 100px;
+    border: transparent;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: all 0.3s;
+    z-index: 1;
+    text-align: center;
+}
+
+.traceMe-solution-link-card a:hover {
+    background-color: #F5F5F5;
+    color: #012a4a;
+}
+
+.t-image img{
+    width: 100%;
+}
+
+@media(max-width:992px){
+    .feature-image img, .feature-image1 img{width: 100%;}
+    .feature-reverse{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .feature-image1{
+        margin-top: 40px;
+    }
+    .more-sloution-cards {
+        flex-direction: column;
+        justify-content: stretch;
+        align-items: center;
+    }
+    .traceMe-solution-link-card {
+        width: 90%;
+        margin: 10px auto;
+    }
+    
+    .traceMe-solution-link-card h1 {
+        font-size: 30px;
+    }
+    .solutions-hero-text h2 {
+        font-size: 36px;
+    }
+    
+    .solutions-hero-text p {
+        font-size: 15px;
+    }
+    .solutions-hero-text h6 {
+        font-size: 12px;
+    }
+}
+
+@media(max-width:580px){
+    .solutions-hero-text h2 {
+        font-size: 28px;
+    }
+    .traceMe-solution-link-card {
+        width: 95%;
+        padding: 40px;
+        margin: 10px auto;
+    }
+    
+    .traceMe-solution-link-card h1 {
+        color: #FFFFFF;
+        z-index: 1;
+        font-size: 26px;
+    }
+    
+    .traceMe-solution-link-card a {
+       font-size: 12px;
+        width: 100px;
+    }
+    
+    .traceMe-solution-link-card a:hover {
+        background-color: #F5F5F5;
+    }
+}

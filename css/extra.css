@@ -287,7 +287,7 @@
     text-decoration: none;
     color: rgba(255, 255, 255, 1) !important;
     font-size: 15px;
-    background-color: rgba(40, 82, 107, 1.0);
+    background-color: #012a4a;
     border-radius: 4px;
     padding: 6px 20px;
     margin-top: 0px;
@@ -504,7 +504,7 @@
     text-decoration: none;
     color: rgba(255, 255, 255, 1) !important;
     font-size: 15px;
-    background-color: rgba(40, 82, 107, 1.0);
+    background-color: #012a4a;
     border-radius: 8px;
     padding: 8px 24px;
  }
@@ -651,7 +651,7 @@
 
 
  .growfast-page-header--module_16491594203525 .growfast-page-header__content__inner--title span {
-    background-image: linear-gradient(to right, rgba(40, 82, 107, 1.0) 0, rgba(255, 255, 255, .01) 100%);
+    background-image: linear-gradient(to right, #012a4a 0, rgba(255, 255, 255, .01) 100%);
  }
 
  .growfast-page-header--module_16491594203525 .growfast-page-header__bg--video:after {
@@ -1049,7 +1049,7 @@
 
  .growfast-portfolio--module_164923675555015 .growfast-portfolio__load-more-button:hover {
     color: rgba(255, 255, 255, 1) !important;
-    background-color: rgba(40, 82, 107, 1.0);
+    background-color: #012a4a;
  }
 
  .growfast-portfolio--module_164923675555015 .growfast-portfolio__load-more-button svg path {
@@ -1067,12 +1067,12 @@
  .growfast-portfolio--module_164923675555015 .growfast-portfolio__load-more-button {
     border-width: 1px;
     border-style: solid;
-    border-color: rgba(40, 82, 107, 1.0);
+    border-color: #012a4a;
  }
 
 
  .growfast-portfolio--module_164923675555015 .growfast-portfolio__load-more-button:hover {
-    border-color: rgba(40, 82, 107, 1.0);
+    border-color: #012a4a;
  }
 
 
@@ -2206,7 +2206,7 @@
  }
 
  .growfast-testimonial2--module_164915962706711.growfast-testimonial2 .flickity-button:hover svg path {
-    fill: rgba(40, 82, 107, 1.0);
+    fill: #012a4a;
  }
 
 
@@ -2340,7 +2340,7 @@
     text-decoration: none;
     color: rgba(255, 255, 255, 1) !important;
     font-size: 15px;
-    background-color: rgba(40, 82, 107, 1.0);
+    background-color: #012a4a;
     border-radius: 10px;
     padding: 10px 16px;
     margin-top: 8px;
@@ -3370,26 +3370,4 @@
  }
 
 
- @font-face {
-   font-family: 'Nunito';
-   font-weight: 400;
-   font-style: normal; 
-   src: url('../fonts/Nunito-Regular.woff2') format('woff2'), /* Modern Browsers */
-        url('../fonts/Nunito-Regular.woff') format('woff'); /* Older Browsers */
- }
- 
- @font-face {
-   font-family: 'Nunito';
-   font-weight: 500;
-   font-style: normal; 
-   src: url('../fonts/Nunito-SemiBold.woff2') format('woff2'), /* Modern Browsers */
-        url('../fonts/Nunito-SemiBold.woff') format('woff'); /* Older Browsers */
- }
 
- @font-face {
-   font-family: 'Nunito';
-   font-weight: 700;
-   font-style: normal; 
-   src: url('../fonts/Nunito-Bold.woff2') format('woff2'), /* Modern Browsers */
-        url('../fonts/Nunito-Bold.woff') format('woff'); /* Older Browsers */
- }

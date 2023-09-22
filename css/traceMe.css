@@ -2,7 +2,7 @@
     font-family: 'Nunito';
     font-weight: 400;
     font-style: normal;
-    src: url('./fonts/MYRIADPRO-REGULAR.OTF') format('truetype');
+    src: url('../fonts/MYRIADPRO-REGULAR.OTF') format('truetype');
 }
 
 @font-face {
@@ -30,26 +30,49 @@ p{
     margin-bottom: 0%  !important;
 }
 
-
 .body-wrapper {
     font-family: Nunito, sans-serif;
 }
 
 .page-content {
     padding: 0px 20px;
-    max-width: 1280px;
+    max-width: 1280px !important;
     margin: 0px auto;
 }
 
 .hero-banner {
     height: 550px;
-    background-image: url('../assets/header-home-retraced-map-sustainability-management-fashion-1\ \(1\).jpg');
+    background-image: url('../assets/header-home-map-sustainability-management-fashion-1\ \(1\).jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     display: flex;
     align-items: center;
     justify-content: left;
+}
+.brands-hero-banner{
+    height: 550px;
+    background-image: url('../assets/for-brands-page-header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 100vw;
+    max-width: 1300px;
+}
+.suppliers-hero-banner{
+    height: 550px;
+    background-image: url('../assets/for-supplier-page-header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 100vw;
+    max-width: 1300px;
 }
 
 .hero-background {
@@ -58,6 +81,12 @@ p{
 
 .hero-heading {
     width: 50%;
+}
+
+.hero-heading h6{
+    font-size: 15px;
+    font-weight: 800;
+    color: #012a4a;
 }
 
 .hero-heading h1 {
@@ -77,12 +106,13 @@ p{
     color: #012a4a;
     font-size: 15px;
     line-height: 120%;
+    margin-top: 10px;
 }
 
 .hero-heading button {
     background-color: #012a4a;
     color: #fff;
-    padding: 15px 30px;
+    padding: 10px 20px;
     font-size: 16px;
     border: transparent;
     border-radius: 4px;
@@ -103,7 +133,6 @@ p{
 }
 
 .trusted-partners h2, .traceMe-solutions h2, .trackMe-q_a h2, .traceMe-partners h2, .traceMe-stats h2, .we-support h2{
-    
     font-weight: 700;
     text-align: center;
     color: #012a4a;
@@ -228,6 +257,7 @@ p{
 
 .traceMe-solution-card a:hover {
     background-color: #F5F5F5;
+    color: #012a4a;
 }
 
 /* 0000000000000000000000000000000000000000 */
@@ -290,6 +320,7 @@ p{
 }
 
 .flipping-card div p {
+    padding: 20px;
     width: 70%;
     text-align: left;
     font-weight: 500;
@@ -330,6 +361,7 @@ p{
 }
 .trace-box h1{
     font-size: 64px;
+    font-weight: 900;
     color: #012a4a;
 
 }
@@ -345,10 +377,15 @@ p{
     align-items: stretch;
 }
 
+footer{
+    background-color: #012a4a;
+}
+
 .footer{
+    max-width: 1280px;
+    margin: 0px auto;
     display: flex;
     justify-content: space-around;
-    background-color: #012a4a;
     padding: 40px 0px;
     color: #F5F5F5;
 }
@@ -372,8 +409,97 @@ p{
     text-decoration: none;
 }
 
+.why-overview{
+    background-color: #F5F5F5;
+    width: 100%;
+    padding: 50px 30px;
+    border: transparent;
+    border-radius: 10px;
+}
+
+.why-overview h2{
+    text-align: center;
+    font-weight: 700;
+    color: #012a4a;
+}
+
+.overview{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    align-items: center;
+}
+.overview-text{
+    width: 50%;
+    font-size: 16px;
+}
+.overview-text h3{
+    font-weight: 700;
+    color: #012a4a;
+    margin-bottom: 30px;
+}
+.overview-image{
+    width: 30%;
+}
+.overview-image img{
+    width: 100%;
+}
+.overview-image p{
+    font-size: 12px;
+    color: #343a40;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.our-solutions{
+    padding: 0px 30px;
+    margin: 80px 0px;
+}
+.our-solutions h2{
+    font-weight: 700;
+    text-align: center;
+    color: #012a4a;
+    margin-bottom: 20px;
+}
+.solution-1, .solution-2{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.solution-img img{
+    width: 100%;
+}
+.solution-text{
+    font-size: 16px;
+}
+
 
 /* Responsive */
+
+@media(max-width:992px){
+    .brands-hero-banner{
+        height: 100vh;
+        background-image: url('../assets/for-brands-page-header-992.jpg');
+        align-items: start;
+        padding-top: 40px;
+    }
+    .suppliers-hero-banner{
+        height: 100vh;
+        background-image: url('../assets/for-supplier-page-header-992.jpg');
+        align-items: start;
+        padding-top: 40px;
+    }
+    .brands-hero-heading {
+        width: 90% !important;
+    }
+    .hero-heading h6{
+        font-size: 12px !important;
+    }
+    .overview-text{
+        font-size: 14px;
+    }
+}
 
 @media(max-width:768px){
     .hero-heading {
@@ -470,6 +596,37 @@ p{
         color: #F5F5F5;
         font-size: 10px;
         text-decoration: none;
+    }
+    .overview{
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+    }
+    .why-overview h2{
+        font-size: 28px;
+    }
+    .overview-text{
+        width: 100%;
+    }
+    .overview-text h3{
+        font-size: 24px;
+    }
+    .overview-image{
+        margin-top: 30px;
+        width: 100%;
+    }
+    .our-solutions h2{
+        font-size: 28px;
+        text-align: left;
+    }
+    .solution-img{
+        margin-top: 20px;
+    }
+    .solution-text{
+        font-size: 14px;
+    }
+    .solution-2{
+        flex-direction: column-reverse;
     }
 }
 

@@ -1,0 +1,271 @@
+.lksg-hero-banner {
+    height: 550px;
+    background-image: url('../assets/germany-law.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    position: relative;
+}
+
+.csrd-hero-banner {
+    height: 550px;
+    background-image: url('../assets/sewing-machine-item-clothing.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    position: relative;
+}
+
+.agec-hero-banner {
+    height: 550px;
+    background-image: url('../assets/Sun_Rays_between_the_Trees_Background-953.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    position: relative;
+}
+
+.uflpa-hero-banner {
+    height: 550px;
+    background-image: url('../assets/white-cotton-flowers-turquoise-blue-fabric-modified\ \(1\).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    position: relative;
+}
+
+.lksg-hero-banner::before, .agec-hero-banner::before, .csrd-hero-banner::before, .uflpa-hero-banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(1,42,74,0.3);
+}
+
+.lksg-hero-background, .agec-hero-background, .csrd-hero-background, .uflpa-hero-background {
+    width: 100%;
+    padding: 0px 20px;
+    max-width: 1280px;
+    margin: 0px auto;
+    z-index: 1;
+}
+
+.lksg-hero-heading, .agec-hero-heading, .csrd-hero-heading, .uflpa-hero-heading {
+    width: 50%;
+   
+}
+
+.lksg-hero-heading h1, .agec-hero-heading h1, .csrd-hero-heading h1, .uflpa-hero-heading h1 {
+    font-family: Nunito, sans-serif;
+    color: #fff;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+}
+
+.lksg-hero-heading p , .agec-hero-heading p , .csrd-hero-heading p , .uflpa-hero-heading p {
+    font-family: Nunito, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    line-height: 120%;
+}
+
+@media(max-width:768px){
+    .lksg-hero-heading, .agec-hero-heading, .csrd-hero-heading, .uflpa-hero-heading {
+        width: 80%;
+    }
+    .lksg-hero-heading h1, .agec-hero-heading h1, .csrd-hero-heading h1, .uflpa-hero-heading h1 {
+        font-size: 36px;
+    }
+    
+    .lksg-hero-heading p , .agec-hero-heading p , .csrd-hero-heading p , .uflpa-hero-heading p {
+        font-size: 15px;
+    }
+}
+
+.law-boxes{
+    display: flex !important;
+    align-items: stretch !important;
+    padding: 40px 20px;
+}
+
+.law-box, .empty-box{
+    margin: 20px auto;
+}
+.empty-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.empty-box img{
+    max-width: 200px;
+}
+
+.law-box{
+    background-color: #F5F5F5;
+    padding: 30px !important;
+    border: transparent;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px -10px #343a40;
+    min-height: 260px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: all 0.3s;
+}
+
+.law-box:hover{
+    background-color: #055796;
+    color: #fff !important;
+}
+
+.law-box h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.law-box ul{
+    margin-top: 10px;
+}
+
+.law-box ul li{
+    font-size: 15px;
+    margin: 5px 0px;
+}
+
+@media(max-width:500px){
+    .law-box h2{
+        font-size: 26px;
+        font-weight: 700;
+    }
+    
+    .law-box ul li{
+        font-size: 14px;
+    }
+}
+
+@media(max-width:991px){
+    .empty-box{
+        display: none !important;
+    }
+}
+
+.guide-row{
+    margin:30px auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F5F5F5;
+    width: 100%;
+    padding: 50px 30px;
+    border: transparent;
+    border-radius: 10px;
+    max-width: 1400px;
+}
+.guide-image{
+    width: 50%;
+}
+
+.guide-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.guide-download{
+    width: 50%;
+    padding: 60px 60px !important;
+}
+.guide-download h2{
+    font-size: 42px;
+    font-weight: 900;
+}
+.guide-download p{
+    font-size: 16px;
+    line-height: 140%;
+    margin: 20px 0px;
+}
+.guide-download ul{
+    margin: 20px 0px;
+}
+.guide-download ul li{
+    font-size: 16px;
+}
+.guide-button{
+    border: transparent;
+    color: #fff;
+    background-color: #012a4a;
+    padding: 10px 30px;
+    border-radius: 50px;
+    font-size: 15px;
+}
+
+.guide-button:hover{
+    background-color: #343a40;
+    color: #fff;
+}
+
+@media(max-width:992px){
+    .guide-row{
+        margin:30px auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .guide-image{
+        width: 100%;
+    }
+    
+    .guide-download{
+        width: 100%;
+        padding: 60px 60px !important;
+    }
+}
+
+@media(max-width:992px){
+    .guide-download h2{
+        font-size: 32px;
+        font-weight: 900;
+    }
+    .guide-download p{
+        font-size: 14px;
+        line-height: 140%;
+        margin: 20px 0px;
+    }
+    .guide-download ul{
+        margin: 20px 0px;
+    }
+    .guide-download ul li{
+        font-size: 14px;
+    }
+    .guide-button{
+        font-size: 13px;
+    }
+}
+
+@media(max-width:550px){
+    .guide-download h2{
+        font-size: 26px;
+        font-weight: 900;
+    }
+    .guide-download{
+        width: 100%;
+        padding: 60px 0px !important;
+    }
+}
