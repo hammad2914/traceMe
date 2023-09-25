@@ -253,6 +253,7 @@ p{
     color: #FFFFFF;
     z-index: 1;
     font-size: 32px;
+    font-weight: 700;
 }
 
 .traceMe-solution-card a {
