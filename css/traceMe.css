@@ -75,6 +75,15 @@ p{
     max-width: 1300px;
 }
 
+@media(min-width:1401px){
+    .brands-hero-banner{
+        background-size: contain;
+    }
+    .suppliers-hero-banner{
+        background-size: contain;
+    }
+}
+
 .hero-background {
     width: 100%;
 }
@@ -195,9 +204,13 @@ p{
 
 .traceMe-solutions, .we-support {
     margin: 60px auto;
-    padding: 50px 30px;
+    padding: 50px 0px 0px 0px;
     width: 100%;
     text-align: center;
+}
+
+.we-support{
+    padding-bottom: 50px;
 }
 
 .traceMe-solutions-cards {
@@ -426,7 +439,7 @@ footer{
 .overview{
     display: flex;
     justify-content: space-around;
-    padding-top: 50px;
+    padding-top: 0px;
     align-items: center;
 }
 .overview-text{
@@ -506,7 +519,7 @@ footer{
         width: 80%;
     }
     .hero-heading h1 {
-        font-size: 36px;
+        font-size: 28px;
     }
     
     .hero-heading p {
@@ -530,16 +543,13 @@ footer{
     }
     
     .traceMe-solution-card {
-        width: 90%;
+        width: 100%;
         margin: 10px auto;
     }
     
     .traceMe-solution-card h1 {
         font-size: 30px;
     }
-    
-    
-    /* 0000000000000000000000000000000000000000 */
     
     .q_a-cards {
         display: flex;
@@ -600,7 +610,7 @@ footer{
     .overview{
         display: flex;
         flex-direction: column;
-        padding-top: 50px;
+        padding-top: 0px;
     }
     .why-overview h2{
         font-size: 28px;
@@ -632,7 +642,8 @@ footer{
 
 
 @media(max-width:580px){
-
+    .hero-banner {
+        height: 480px;}
     .hero-heading button {
         background-color: #012a4a;
         color: #fff;
@@ -664,6 +675,10 @@ footer{
         z-index: 1;
         font-size: 26px;
     }
+
+    .trusted-partners h2, .traceMe-solutions h2, .trackMe-q_a h2, .traceMe-partners h2, .traceMe-stats h2, .we-support h2{
+        font-size: 24px;
+    }
     
     .traceMe-solution-card a {
        font-size: 12px;
@@ -673,8 +688,7 @@ footer{
     .traceMe-solution-card a:hover {
         background-color: #F5F5F5;
     }
-    
-    /* 0000000000000000000000000000000000000000 */
+
     
     .flipping-card-box {
         width: 95%;      
@@ -688,12 +702,14 @@ footer{
     }
 
     .card-back img, .card-front img {
-        width: 50% !important;
+        width: 30% !important;
     }
     
     .flipping-card div p {
         text-align: left;
         font-size: 12px;
+        width: 95%;
+        padding: 0%;
     }
     
     .stat-boxes{
@@ -729,5 +745,15 @@ footer{
     .foot-li ul li{
         text-align: center;
     }
-   
+    .why-overview h2 {
+        font-size: 24px;
+        margin-bottom: 24px;
+        text-align: left;
+    }
+    .overview-text h3 {
+        font-size: 20px;
+    }
+    .our-solutions h2 {
+        font-size: 24px;
+    }
 }

@@ -1,0 +1,223 @@
+.studies-hero-banner{
+    min-height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.studies-hero-image img{
+    width: 100%;
+}
+.studies-hero-text h6{
+    font-size: 15px;
+    font-weight: 800;
+    color: #012a4a;
+    text-transform: uppercase;
+}
+
+.studies-hero-text h2 {
+    color: #012a4a;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 120%;
+}
+
+.studies-hero-text p {
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: none;
+    color: #012a4a;
+    font-size: 15px;
+    line-height: 150%;
+    margin-top: 10px;
+}
+
+.studies-partner, .case-achivements{
+    background-color: #F5F5F5;
+    width: 100%;
+    padding: 50px 30px;
+    border: transparent;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.studies-partner-image{
+    border: transparent;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 30%;
+}
+.studies-partner-image img{
+    width: 100%;
+}
+
+.studies-partner-text{
+    width: 50%;
+    text-align: center;
+}
+.studies-partner-text p{
+    color: #343a40;
+    font-weight: 500;
+    line-height: 150%;
+    margin-top: 40px;
+    font-size: 16px;
+}
+.studies-partner-text img{
+    width: 300px;
+}
+.studies-partner-text h5{
+    font-weight: 900;
+    color: #012a4a;
+}
+.studies-partner-text h6{
+    color: #343a40;
+    font-weight: 700;
+}
+.case-achivements{
+ margin: 40px auto !important; 
+}
+.case-achivements h2{
+    font-weight: 700;
+    text-align: center;
+    color: #012a4a;
+    margin-bottom: 40px;
+}
+.achivement{
+    text-align: center;
+    margin-top: 20px;
+}
+.achivement h3{
+    margin-top: 20px;
+    color: #012a4a;
+    font-size: 20px;
+    font-weight: 700;
+}
+.achivement p{
+    font-size: 15px;
+}
+
+.challenge-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.challenge, .solution{
+    border: transparent;
+    background-color: #F5F5F5;
+    padding: 40px;
+    width: 40%;
+    border-radius: 10px;
+}
+
+.arrow{
+    display: flex;
+    align-items: center;
+}
+.challenge h4, .solution h4{
+    font-size: 22px;
+    font-weight: 700;
+    color: #012a4a;
+}
+.challenge p, .solution p{
+    font-size: 15px;
+    color: #343a40
+}
+
+.goal{
+    background-color: #F5F5F5;
+    padding: 40px 40px;
+    margin: 60px auto;
+    border: transparent;
+    border-radius: 15px;
+}
+
+.goal h4{
+    font-weight: 800;
+    text-align: center;
+    color: #012a4a;
+}
+
+@media(max-width:992px){
+    .studies-hero-text h2 {
+        font-size: 36px;
+    }
+    
+    .studies-hero-text p {
+        font-size: 15px;
+    }
+    .studies-hero-text h6 {
+        font-size: 12px;
+    }
+    .studies-partner{
+       display: block;
+    }
+    
+    .studies-partner-image{
+        width: 90%;
+        margin: 0px auto;
+    }
+    
+    .studies-partner-text{
+        width: 90%;
+        text-align: center;
+        margin: 40px auto 0px auto;
+    }
+}
+
+@media(max-width:768px){
+    .challenge-row{
+        display: flex;
+        flex-direction: column;
+    }
+    .challenge, .solution{
+        width: 100%;
+    }
+    .case-achivements h2{
+        font-size: 28px;
+        }
+    .arrow{
+        display: flex;
+        justify-content: center;
+        transform: rotate(90deg);
+        margin: 40px auto;
+    }
+    .goal h4{
+        font-size: 20px;
+    }
+}
+
+@media(max-width:580px){
+    .studies-hero-text h2 {
+        font-size: 28px;
+    }
+    .studies-partner-text p{
+        font-size: 14px;
+    }
+    .studies-partner-text h5{
+     font-size: 18px;
+    }
+    .studies-partner-text h6{
+      font-size: 16px;
+    }
+    .studies-partner-text img{
+        width: 200px;
+    }
+    .case-achivements h2{
+    font-size: 25px;
+    }
+    .challenge h4, .solution h4{
+        font-size: 20px;
+        font-weight: 800;
+    }
+    .challenge p, .solution p{
+        font-size: 14px;
+    }
+    .achivement p{
+        font-size: 14px;
+    }
+    .goal h4{
+        font-size: 18px;
+    }
+}

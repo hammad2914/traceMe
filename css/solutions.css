@@ -223,7 +223,7 @@
         font-size: 28px;
     }
     .traceMe-solution-link-card {
-        width: 95%;
+        width: 100%;
         padding: 40px;
         margin: 10px auto;
     }
@@ -241,5 +241,27 @@
     
     .traceMe-solution-link-card a:hover {
         background-color: #F5F5F5;
+    }
+    .feature-heading h2, .more-solutions h2 {
+        font-size: 28px;
+    }
+    .feature-text h3{
+        font-size: 24px;
+    }
+    .feature-li p {
+        font-size: 14px;
+        margin-left: 20px;
+    }
+    .feature-box h4 {
+        font-size: 22px;
+    }
+    .feature-box p {
+        font-size: 14px;
+    }
+    .feature-box-h{
+        margin-top: 0px;
+    }
+    .feature-box-h h3{
+        font-size: 26px;
     }
 }
