@@ -36,8 +36,9 @@ p{
 
 .page-content {
     padding: 0px 20px;
-    max-width: 1280px !important;
+    max-width: 1300px !important;
     margin: 0px auto;
+    margin-top: 70px;
 }
 
 .hero-banner {
