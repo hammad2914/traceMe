@@ -107,6 +107,7 @@
     border-radius: 0 0 4px 4px;
     display: none;
     z-index: 2;
+    padding: 0px !important;
   }
   nav .navbar .links li:hover .why-sub-menu,
   nav .navbar .links li:hover .laws-sub-menu,
@@ -211,12 +212,13 @@
     }
       .sidebar-logo  i,
       .navbar .bx-menu{
-        font-size: 25px;
+        font-size: 40px;
         color: #012A4A;
       }
     nav .navbar .links{
       display: block;
       margin-top: 20px;
+      padding: 0px !important;
     }
     nav .navbar .links li .arrow{
       line-height: 40px;
@@ -245,7 +247,10 @@
     justify-content: space-between;
   }
   .links li:hover .why-arrow,
-  .links li:hover .laws-arrow{
+  .links li:hover .laws-arrow,
+  .links li:hover .solutions-arrow,
+  .links li:hover .case-arrow,
+  .links li:hover .about-arrow{
     transform: rotate(0deg);
     }
     .navbar .links li .sub-menu .more-sub-menu{
