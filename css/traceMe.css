@@ -428,15 +428,26 @@ footer{
     padding: 0%;
     margin: 0%;
     text-align: left;
-    position: relative;
 }
 .foot-li ul li a{
     color: #F5F5F5;
     font-size: 14px;
     text-decoration: none;
+    position: relative;
 }
-.foot-li ul li a:hover{
-    color: #d3cdcd;
+.foot-li ul li a::after{
+    content: ' ';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    height: 1px;
+    width: 0%;
+    background-color: #FFFFFF;
+    transition: 0.3s;
+}
+.foot-li ul li a:hover::after{
+    width: 100%;
+    left: 0%;
 }
 
 .why-overview{
